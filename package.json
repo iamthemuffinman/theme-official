@@ -1,14 +1,14 @@
 {
     "name": "gitbook-plugin-theme-official",
     "description": "Official theme for GitBook.com documentations",
-    "version": "2.1.1",
+    "version": "2.2.0",
     "engines": {
-        "gitbook": ">=3.0.0-pre.8"
+        "gitbook": "3.2.2"
     },
     "devDependencies": {
-        "less": "2.6.0",
-        "less-plugin-clean-css": "1.5.1",
-        "gitbook-styleguide": "5.9.2"
+        "gitbook-styleguide": "^7.9.3",
+        "less": "^2.7.2",
+        "less-plugin-clean-css": "^1.5.1"
     },
     "scripts": {
         "prepublish": "./src/build.sh"
